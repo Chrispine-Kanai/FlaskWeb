@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+    <header></header>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">GET STARTED</a></li>
+        </ul>
+    </nav>
+    <h1>Hello Everyone</h1>
+    {% for item in programmingLanguages %}
+        <p>{{item}}</p>
+    {% endfor %}
+    <footer>
+        &copy; 2019
+    </footer>
+</body>
+</html>
